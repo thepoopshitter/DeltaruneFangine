@@ -1,3 +1,5 @@
+if (global.ow_player_move == false){exit;}
+
 if (keyboard_check(vk_up) && place_free(x,y-player_speed))
 {
 	player_direction=90;
@@ -29,3 +31,12 @@ if(x != xprevious or y != yprevious)
 else{image_speed=0; image_index=0;}
 
 sprite_index=player_sprite_overworld[player_direction];
+
+var player_door = noone;
+player_door = instance_place(x,y,obj_ow_door);
+
+if (player_door != noone){
+	var t_ = instance_create_depth(x,y,-9999,obj_ow_transition);
+	t_.transition_room = player_door.door_room;
+	t_.transition_exit = player_door.door_exit;
+	}
