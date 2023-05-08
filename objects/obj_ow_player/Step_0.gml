@@ -40,3 +40,5 @@ if (player_door != noone){
 	t_.transition_room = player_door.door_room;
 	t_.transition_exit = player_door.door_exit;
 	}
+
+if (keyboard_check_pressed(vk_enter)){sys_save_save();}

@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Overworld",
+    "path": "folders/Objects/Overworld.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -35,5 +35,5 @@
     "path": "sprites/spr_engine_ow_solid/spr_engine_ow_solid.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
