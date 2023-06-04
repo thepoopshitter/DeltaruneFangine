@@ -1,0 +1,1 @@
+if(sys_ow_interaction_interacted(box)){sys_save_save(); show_message("saved");}

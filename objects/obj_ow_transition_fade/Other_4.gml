@@ -1,3 +1,5 @@
+if(!transition_ingameplay){exit;}
+
 var transition_exit_ = transition_exit;
 
 with(obj_ow_exit)

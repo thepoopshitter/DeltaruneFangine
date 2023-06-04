@@ -3,7 +3,3 @@
 
 #macro GAME_RESOLUTION_W 320
 #macro GAME_RESOLUTION_H 240
-
-global.ow_player_move = true;
-global.ow_game = false;
-global.ow_room = noone;

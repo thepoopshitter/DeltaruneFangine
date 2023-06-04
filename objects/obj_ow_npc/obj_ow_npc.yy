@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_ow_savepointplaceholder",
+  "name": "obj_ow_npc",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -25,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_ow_savepoint",
-    "path": "sprites/spr_ow_savepoint/spr_ow_savepoint.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

@@ -1,10 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_ow_player",
+  "name": "obj_ow_interaction_box",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
@@ -27,12 +25,14 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"interaction_interacted","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":3,},
+  ],
   "solid": false,
   "spriteId": {
-    "name": "spr_kris_l_ow_down",
-    "path": "sprites/spr_kris_l_ow_down/spr_kris_l_ow_down.yy",
+    "name": "spr_engine_ow_interaction",
+    "path": "sprites/spr_engine_ow_interaction/spr_engine_ow_interaction.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

@@ -1,0 +1,1 @@
+if(sys_ow_interaction_interacted(box)){show_message("interact");}

@@ -4,8 +4,8 @@ draw_set_alpha(1);
 draw_set_halign(fa_center);
 draw_set_valign(fa_top);
 
-var heart_x_raw=0;
-var heart_y_raw=0;
+var heart_x_raw=160;
+var heart_y_raw=250;
 
 // Title
 
